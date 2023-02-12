@@ -27,6 +27,8 @@ public class C02_SoftAssertion {
             2- bu objeyi kullanarak istediginiz tum testleri yapin
             3- tum testler bittiginde, raporlama yapmasi icin
                softassert.assertAll() calistirin
+               eger testlerin sonunda assertAll() yazilmazsa
+               assertion'lar failed olsa bile test PASSED yazar
 
             Softassert birden fazla hatayi toptan rapor eder
             ancak, hatalarin satir numarasini degil
@@ -34,6 +36,8 @@ public class C02_SoftAssertion {
 
             hatalarin nereden kaynaklandigini kolayca gorebilmemiz icin
             verify kodlarina ACIKLAMA EKLEMELIYIZ
+
+
 
          */
         // yeni bir test method'u olusturun ve 3 gorevi gerceklestirin
