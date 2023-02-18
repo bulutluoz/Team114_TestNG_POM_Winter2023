@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="method calistirma">
+    <test name="method'lari calistirma">
+        
+        <classes>
+            <class name="tests.ders11_testNGFramework.C01_Priority">
+                <methods>
+                    <include name="wisequarterTest"></include>
+                    <include name="bestBuyTest"></include>
+                </methods>
+            </class>
+            <class name="tests.ders12_assertions_POMGelistirmeler.C04_NegatifLoginTesti">
+                <methods>
+                    <exclude name="negatifLoginTesti"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

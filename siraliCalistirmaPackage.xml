@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Package calistirma">
+    <test name="Package calistirma">
+        
+        <packages>
+            <package name="tests.ders13_TestNGreports"></package>
+        </packages>
+    </test>
+</suite>

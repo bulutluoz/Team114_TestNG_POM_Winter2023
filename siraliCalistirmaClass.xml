@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="class'lari calistirma">
+    <test name="clas'lari calistirma">
+        
+        <classes>
+            <class name="tests.ders11_testNGFramework.C04_POMIlkTest"></class>
+            <class name="tests.ders12_assertions_POMGelistirmeler.C03_PositiveLoginTest"></class>
+        </classes>
+        
+    </test>
+</suite>

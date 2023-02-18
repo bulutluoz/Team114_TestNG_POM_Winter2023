@@ -13,7 +13,7 @@ public class C04_POMIlkTest {
            onlara obje olusturarak ulasabiliriz
      */
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() throws InterruptedException {
         // qualitydemy sayfasina gidip
 

@@ -5,7 +5,7 @@ import utilities.Driver;
 
 public class C05_DriverKullanimi {
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() throws InterruptedException {
         Driver.getDriver().get("https://www.youtube.com");
 
