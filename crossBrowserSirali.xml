@@ -7,12 +7,13 @@
      <Test> taglari arasina yazariz  </Test>
     -->
 
-<suite name="Cross browser calistirma">
+<suite name="Cross browser calistirma" >
 
     <test name="chrome ile calisacak testler">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="tests.ders14_crossBrowser.C01_CrossBrowserAmazon"></class>
+            <class name="tests.ders14_crossBrowser.C02_CrossBrowserPozitifLoginTest"></class>
         </classes>
 
     </test>
@@ -20,10 +21,22 @@
     <test name="firefox ile calisacak testler">
         <parameter name="browser" value="firefox"></parameter>
         <classes>
+            <class name="tests.ders14_crossBrowser.C01_CrossBrowserAmazon"></class>
             <class name="tests.ders14_crossBrowser.C02_CrossBrowserPozitifLoginTest"></class>
         </classes>
 
     </test>
 
-
 </suite>
+
+
+
+
+
+
+
+
+
+
+
+
