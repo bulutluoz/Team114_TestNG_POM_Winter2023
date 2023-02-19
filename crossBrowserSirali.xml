@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- Cross browser demek ayni calistirmada bazi testler bir browser ile calisiyorken
+     bazi testlerin baska browser ile calismasi demektir
+
+     Bunun icin ayni browser ile calisacak tum testleri
+     <Test> taglari arasina yazariz  </Test>
+    -->
+
+<suite name="Cross browser calistirma">
+
+    <test name="chrome ile calisacak testler">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.ders14_crossBrowser.C01_CrossBrowserAmazon"></class>
+        </classes>
+
+    </test>
+
+    <test name="firefox ile calisacak testler">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="tests.ders14_crossBrowser.C02_CrossBrowserPozitifLoginTest"></class>
+        </classes>
+
+    </test>
+
+
+</suite>
